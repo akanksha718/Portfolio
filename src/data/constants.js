@@ -10,6 +10,8 @@ import bb from "../assets/bb.jpeg";
 import ps from "../assets/ps.png";
 import ecom from "../assets/ecom.png";
 import ss from "../assets/ss.png";
+import vercel from "../assets/vercel.svg";
+import netlify from "../assets/netlify.svg";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -175,8 +177,7 @@ export const skills = [
       },
       {
         name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image: netlify,
       },
       {
         name: "VS Code",
@@ -184,9 +185,8 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+        name: "Vercel",
+        image:vercel,
       },
     ],
   },
@@ -337,40 +337,32 @@ export const projects = [
     image: bb,
     tags: [
       "React Js",
-      "PostgressSQL",
       "Node Js",
       "Express Js",
       "Redux",
-      "React Flow",
+      "Python",
     ],
     category: "web app",
     github: "https://github.com/akanksha718/BrailleBridge",
-    webapp: "https://decisionhub.netlify.app/",
   },
   {
-    id: 9,
-    title: "Password Angle",
-    date: "Jun 2024 - Jul 2024",
+    id: 1,
+    title: "QuickGPT",
+    date: "Dec 2025 - Jan 2026",
     description:
-      "Password Angle is a web application which tells the strength of your password and suggest new Password",
+      "A ChatGPT-style AI chatbot built using modern web technologies. It allows users to ask questions and receive intelligent responses in real time.",
     image:
-      ps,
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
       "React Js",
       "MongoDb",
       "Node Js",
       "Express Js",
       "Redux",
+      "OpenAI API",
     ],
     category: "web app",
-    github: "https://github.com/akanksha718/PasswordAngle",
-    webapp: "https://trackify-management.netlify.app/",
+    github: "https://github.com/akanksha718/Chatgpt-clone",
   },
   {
     id: 0,
@@ -382,36 +374,33 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/akanksha718/E-commerse",
-    webapp: "https://podstream.netlify.app/",
   },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Jan 2023",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
   {
+    id: 9,
+    title: "Password Angle",
+    date: "Jun 2024 - Jul 2024",
+    description:
+      "Password Angle is a web application which tells the strength of your password and suggest new Password",
+    image:
+      ps,
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/PasswordAngle",
+  },
+   {
     id: 2,
     title: "Diebeties Detection",
     date: "Jan 2025 - Mar 2025",
     description:
       "Machine Learning model to predict whether a person has diabetes or not based on various health parameters. The model is trained on the Pima Indians Diabetes Database from Kaggle and is built using Python's Scikit-learn library. The web app is built using React Js for the frontend and Flask for the backend.",
     image:ss,
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    tags: ["Python", "TensorFlow"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Machine-Learning-Projects",
     webapp: "https://db-predic.streamlit.app/",

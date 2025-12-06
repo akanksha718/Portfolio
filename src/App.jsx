@@ -1,4 +1,3 @@
-import './App.css'
 import styled, { ThemeProvider } from 'styled-components'
 import { darkTheme } from './utils/Theme'
 import Navbar from './componenets/NavBar'
