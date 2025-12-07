@@ -12,6 +12,7 @@ import ecom from "../assets/ecom.png";
 import ss from "../assets/ss.png";
 import vercel from "../assets/vercel.svg";
 import netlify from "../assets/netlify.svg";
+import quick from "../assets/quickgpt.png";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -303,7 +304,7 @@ export const education = [
     img: "https://iiast.iaic-publisher.org/wp-content/uploads/2019/08/Graphic_Era_Hill_University_Logo-removebg-preview.png",
     school: "Graphic Era Hill University, Dehradun",
     date: "Oct 2023 - Sep 2027",
-    grade: "8.41 CGPA",
+    grade: "8.1 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I have completed 4 semesters and have a CGPA of 8.1. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -351,8 +352,7 @@ export const projects = [
     date: "Dec 2025 - Jan 2026",
     description:
       "A ChatGPT-style AI chatbot built using modern web technologies. It allows users to ask questions and receive intelligent responses in real time.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    image: quick,
     tags: [
       "React Js",
       "MongoDb",
