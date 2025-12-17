@@ -27,12 +27,12 @@ const Image = styled.img`
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
 `;
 const Tags = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
 `;
 const Details = styled.div`
   width: 100%;
@@ -93,12 +93,24 @@ const Button = styled.a`
   font-weight: 600;
   text-align: center;
 `;
+const Tag = styled.span`
+    font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.primary + 15};
+    padding: 2px 8px;
+    border-radius: 10px;
+`;
 
 const ProjectCard = ({ project }) => {
   return (
     <Card>
       <Image src={project.image} />
-      <Tags></Tags>
+       <Tags>
+                {project.tags?.map((tag, index) => (
+                <Tag>{tag}</Tag>
+                ))}
+        </Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
