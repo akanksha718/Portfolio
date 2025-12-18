@@ -14,6 +14,7 @@ import vercel from "../assets/vercel.svg";
 import netlify from "../assets/netlify.svg";
 import quick from "../assets/quickgpt.png";
 import n8n from "../assets/n8n.png";
+import mnist from "../assets/mnist.png";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -341,8 +342,10 @@ export const projects = [
       "React Js",
       "Node Js",
       "Express Js",
+      "Javascript",
       "Redux",
       "Python",
+      "FastAPI",
     ],
     category: "web app",
     github: "https://github.com/akanksha718/BrailleBridge",
@@ -361,6 +364,8 @@ export const projects = [
       "Express Js",
       "Redux",
       "OpenAI API",
+      "Tailwind CSS",
+      "Stripe",
     ],
     category: "web app",
     github: "https://github.com/akanksha718/Chatgpt-clone",
@@ -372,7 +377,7 @@ export const projects = [
     description:
       "Developed a full-stack E-Commerce web application ",
     image: ecom,
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux","JWT"],
     category: "web app",
     github: "https://github.com/akanksha718/E-commerse",
   },
@@ -383,7 +388,7 @@ export const projects = [
     description:
       "Machine Learning model to predict whether a person has diabetes or not based on various health parameters. The model is trained on the Pima Indians Diabetes Database from Kaggle and is built using Python's Scikit-learn library. The web app is built using React Js for the frontend and Flask for the backend.",
     image:ss,
-    tags: ["Python", "TensorFlow"],
+    tags: ["Python","Streamlit","Scikit-learn"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Machine-Learning-Projects",
     webapp: "https://db-predic.streamlit.app/",
@@ -395,23 +400,21 @@ export const projects = [
     description:
       "A Workflow in which loavble created site act as frontend and n8n as backend to collect data from lovable and send response",
     image: n8n,
-    tags: ["N8N", "Google GIMINI API"],
+    tags: ["N8N", "GOOGLE GIMINI API" ,"Lovable"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Lovable-n8n",
   },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
+  {
+    id: 10,
+    title: "MNIST Fashion Classifier",
+    date: "Jun 2025 - Jul 2025",
+    description:
+      "A Machine Learning model that classifies fashion items from the MNIST dataset. The model is built using TensorFlow and Keras and is trained on the Fashion MNIST dataset.",
+    image:mnist,
+    tags: ["Python","TensorFlow","Keras","Streamlit"],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Deep-Learning-Projects",
+  },
   // {
   //   id: 4,
   //   title: "Whatsapp Clone",
