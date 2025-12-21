@@ -146,6 +146,7 @@ const Navbar = () => {
                     <NavLink href="#Skills">Skills</NavLink>
                     {/* <NavLink href="#Experience">Experience</NavLink> */}
                     <NavLink href="#Projects">Projects</NavLink>
+                     <a className='hover:underline' target='_blank' href="https://codolio.com/profile/akanksha_negi">Programing Profile</a>
                     <NavLink href="#Education">Education</NavLink>
                 </NavItems>
 
