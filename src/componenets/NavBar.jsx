@@ -156,6 +156,7 @@ const Navbar = () => {
                     <NavLink href="#Skills" onClick={() => setIsOpen(false)}>Skills</NavLink>
                     {/* <NavLink href="#Experience" onClick={() => setIsOpen(false)}>Experience</NavLink> */}
                     <NavLink href="#Projects" onClick={() => setIsOpen(false)}>Projects</NavLink>
+                    <a className='hover:underline' target='_blank' href="https://codolio.com/profile/akanksha_negi">Programing Profile</a>
                     <NavLink href="#Education" onClick={() => setIsOpen(false)}>Education</NavLink>
                     <GithubButton href={Bio.github} target="_blank" style={{
                         background: theme.primary,

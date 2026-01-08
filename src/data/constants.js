@@ -17,6 +17,7 @@ import n8n from "../assets/n8n.png";
 import mnist from "../assets/mnist.png";
 import movie from "../assets/movie-rec.png";
 import focus from "../assets/focus.png";
+import n8ndoc from "../assets/n8ndoc.png";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -439,20 +440,19 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/akanksha718/Movie-Recommendatoin-System",
     webapp: "https://whatsapp-clone-rishav.web.app",
-  }
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
+  },
+  {
+    id: 6,
+    title: "n8n WorkFlow for Doctor Appintment Booking System",
+    date: "Jan 2026",
+    description:
+      "A simple n8n workflow that allows users to book doctor appointments. The workflow collects user information, checks doctor availability and confirm reply on telegram.",
+    image: n8ndoc,
+    tags: ["n8n","Telegram Bot","Google Calendar API"],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/n8n-project",
+    webapp: "https://breaking-bad-webapp.netlify.app",
+  },
   // {
   //   id: 7,
   //   title: "Quiz App",
