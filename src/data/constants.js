@@ -439,7 +439,6 @@ export const projects = [
     tags: ["Python","Pandas","Scikit-learn","Streamlit"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Movie-Recommendatoin-System",
-    webapp: "https://whatsapp-clone-rishav.web.app",
   },
   {
     id: 6,
@@ -451,21 +450,20 @@ export const projects = [
     tags: ["n8n","Telegram Bot","Google Calendar API"],
     category: "machine learning",
     github: "https://github.com/akanksha718/n8n-project",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+  
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
+  {
+    id: 7,
+    title: "Whatsapp Chat Analyzer",
+    date: "Dec 2025 - Jan 2026",
+    description:
+      "A web application that analyzes WhatsApp chat data to provide insights and statistics about the conversations. Users can upload their chat export files, and the app generates visualizations and summaries of the chat data.",
+    image:
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+    tags: ['Python','Jupyter Notebook','Pandas','Matplotlib','Seaborn','Numpy'],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Whatapp-chat-analyzer",
+  },
   // {
   //   id: 8,
   //   title: "Face Recognition",
