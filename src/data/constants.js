@@ -18,7 +18,7 @@ import mnist from "../assets/mnist.png";
 import movie from "../assets/movie-rec.png";
 import focus from "../assets/focus.png";
 import n8ndoc from "../assets/n8ndoc.png";
-import whatapp_analyzer from "../assets/whatsapp-Analyzer.png";
+import whatapp_analyzer from "../assets/whatapp_Analyzer.png";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
