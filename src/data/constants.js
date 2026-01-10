@@ -18,6 +18,7 @@ import mnist from "../assets/mnist.png";
 import movie from "../assets/movie-rec.png";
 import focus from "../assets/focus.png";
 import n8ndoc from "../assets/n8ndoc.png";
+import whatapp_analyzer from "../assets/whatsapp-Analyzer.png";
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -458,8 +459,7 @@ export const projects = [
     date: "Dec 2025 - Jan 2026",
     description:
       "A web application that analyzes WhatsApp chat data to provide insights and statistics about the conversations. Users can upload their chat export files, and the app generates visualizations and summaries of the chat data.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+    image: whatapp_analyzer,
     tags: ['Python','Jupyter Notebook','Pandas','Matplotlib','Seaborn','Numpy'],
     category: "machine learning",
     github: "https://github.com/akanksha718/Whatapp-chat-analyzer",
