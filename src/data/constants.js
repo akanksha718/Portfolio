@@ -21,7 +21,7 @@ import n8ndoc from "../assets/n8ndoc.png";
 import whatapp_analyzer from "../assets/whatapp_Analyzer.png";
 import LLMpR from "../assets/LLMpR.png";
 import orbital from "../assets/orbital.png";
-import Prepwise from "../assets/prepwise.png";
+import Prepwise from "../assets/Prepwise.png";
 import kidney from "../assets/kidney.png";
 import coder from "../assets/coder.jpg";
 
