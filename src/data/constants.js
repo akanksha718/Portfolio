@@ -19,6 +19,13 @@ import movie from "../assets/movie-rec.png";
 import focus from "../assets/focus.png";
 import n8ndoc from "../assets/n8ndoc.png";
 import whatapp_analyzer from "../assets/whatapp_Analyzer.png";
+import LLMpR from "../assets/LLMpR.png";
+import orbital from "../assets/orbital.png";
+import Prepwise from "../assets/prepwise.png";
+import kidney from "../assets/kidney.png";
+import coder from "../assets/coder.jpg";
+
+
 export const Bio = {
   name: "Akanksha Negi",
   roles: [
@@ -199,110 +206,7 @@ export const skills = [
   },
 ];
 
-export const experiences = [
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
-  },
-];
+
 
 export const education = [
   {
@@ -335,6 +239,86 @@ export const education = [
 ];
 
 export const projects = [
+   {
+    id: 101,
+    title: "Orbital CLI",
+    date: "March 2026 - Apr 2026",
+    description:
+      "Developed a terminal-first AI assistant platform combining a Node.js CLI and a Next.js web client with shared authentication, real-time AI responses, URL scraping, and AI-powered project generation capabilities..",
+    image: orbital,
+    tags: [
+      "Next Js",
+      "Node Js",
+      "Express Js",
+      "Typescript",
+      "Prisma",
+      "Tailwind CSS",
+      "Better auth",
+      "AI SDK",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/OrbitalCLI",
+  },
+   {
+    id: 101,
+    title: "PrepWise",
+    date: "Jan 2026 - Feb 2026",
+    description:
+      "Developed an AI-powered interview preparation platform enabling users to practice real-time mock interviews through voicebased conversations",
+    image: Prepwise,
+    tags: [
+      "Next Js",
+      "Node Js",
+      "Express Js",
+      "Typescript",
+      "firebase",
+      "Tailwind CSS",
+      "Vapi ai",
+      "AI SDK",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/PrepWise1",
+  },
+   {
+    id: 101,
+    title: "Kidney Disease Classification",
+    date: "Jan 2026 - Feb 2026",
+    description:
+      "Developed an end-to-end deep learning application that uses the VGG16 model for transfer learning to classify kidney CT scan images. The dataset used is sourced from Kaggle. The project also incorporates MLflow and DagsHub for experiment tracking, and DVC for data versioning and pipeline management.",
+    image: kidney,
+    tags: [
+      "Deep Learning",
+      "DVC",
+      "VGG16",
+      "MLflow",
+      "DagsHub",
+      "Python",
+      "TensorFlow",
+      "Scikit-learn",
+      
+    ],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Kidney-Disease-Classification",
+  },
+
+   {
+    id: 101,
+    title: "Coder Buddy",
+    date: "Feb 2026 - Mar 2026",
+    description:
+      "Built an AI-assisted code generation platform capable of creating responsive web pages from a single natural language prompt",
+    image: coder,
+    tags: [
+      "langgraph",
+      "python",
+      "OpenAI API",
+      "Groq"
+      
+    ],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Coder_buddy",
+  },
+
   {
     id: 11,
     title: "BrailleBridge",
@@ -464,17 +448,16 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/akanksha718/Whatapp-chat-analyzer",
   },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
+  {
+    id: 8,
+    title: "Cold Email Generator using LLM",
+    date: "Jan 2026",
+    description:
+      "A web application that generates cold email templates using Large Language Models (LLMs). Users can input their target website in which they want to send email",
+    image: LLMpR,
+    tags: ["Python", "LLM", "Chromadb", "gen-ai" ],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Cold-email",
+    
+  },
 ];
