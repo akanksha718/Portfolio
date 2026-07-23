@@ -24,6 +24,26 @@ import orbital from "../assets/orbital.png";
 import Prepwise from "../assets/Prepwise.png";
 import kidney from "../assets/kidney.png";
 import coder from "../assets/coder.jpg";
+import sklearn from "../assets/scikit-learn.png";
+import construct from "../assets/Constrct.png";
+import actify from "../assets/Actify.png";
+import CodeDude from "../assets/CodeDude.png";
+import PrepSheet from "../assets/PrepSheet.png";
+
+export const experiences = [
+
+
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Open Source Contributor ",
+    company: "GirlScript Summer of Code",
+    date: "May 2023 - Present",
+    desc: "Contributing to different open-source projects and learn from industry experts",
+    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  },
+
+];
 
 
 export const Bio = {
@@ -47,6 +67,10 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
+        name: "Next Js",
+        image: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+      },
+      {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -63,12 +87,12 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
       },
       {
         name: "Bootstrap",
@@ -77,11 +101,11 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image:tawindlogo,
+        image: tawindlogo,
       },
       {
         name: "TypeScript",
-        image:"https://creazilla-store.fra1.digitaloceanspaces.com/icons/3257103/file-type-typescript-icon-sm.png",
+        image: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
       }
     ],
   },
@@ -94,7 +118,7 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:express,
+        image: express,
       },
       {
         name: "Python",
@@ -103,7 +127,7 @@ export const skills = [
       },
       {
         name: "Flask",
-        image:flask,
+        image: flask,
       },
       {
         name: "MySQL",
@@ -123,6 +147,19 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Fast Api",
+        image: "https://img.icons8.com/?size=100&id=21896&format=png&color=000000",
+
+      },
+      {
+        name: "Prisma",
+        image: "https://img.icons8.com/?size=100&id=aqb9SdV9P8oC&format=png&color=000000",
+      },
+      {
+        name: "Supabase",
+        image: "https://img.icons8.com/?size=100&id=sH0rW2TvYdr9&format=png&color=000000",
+      }
     ],
   },
   {
@@ -144,8 +181,8 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:post,
-      }
+        image: post,
+      },
     ],
   },
   {
@@ -163,7 +200,7 @@ export const skills = [
       {
         name: "Jupyter",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+          "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000",
       },
       {
         name: "Google Colab",
@@ -171,9 +208,25 @@ export const skills = [
       },
       {
         name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+        image: sklearn,
       },
+      {
+        name: "Pandas",
+        image: "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
+
+      },
+      {
+        name: "Numpy",
+        image: "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000",
+      },
+      {
+        name: "Matplotlib",
+        image: "https://img.icons8.com/?size=100&id=TkX1totjFmAD&format=png&color=000000",
+      },
+      {
+        name: "Ai",
+        image: "https://img.icons8.com/?size=100&id=rYb1JFR9WLSh&format=png&color=000000",
+      }
     ],
   },
   {
@@ -196,12 +249,21 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000",
       },
       {
         name: "Vercel",
-        image:vercel,
+        image: vercel,
       },
+      {
+        name: "Railway",
+        image: "https://img.icons8.com/?size=100&id=04DNcOqhbVZ4&format=png&color=000000"
+      },
+      {
+        name: "Command Line",
+        image: "https://img.icons8.com/?size=100&id=19291&format=png&color=000000"
+
+      }
     ],
   },
 ];
@@ -215,7 +277,7 @@ export const education = [
     school: "Graphic Era Hill University, Dehradun",
     date: "Oct 2023 - Sep 2027",
     grade: "8.1 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Graphic Era Hill University, Dehradun. I have completed 4 semesters and have a CGPA of 8.1. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am pursuing a Bachelor's degree in Computer Science and Engineering at Graphic Era Hill University, Dehradun, with a CGPA of 8.1. Throughout my academic journey, I have built a strong foundation in software development, data structures, algorithms, databases, operating systems, and computer networks while actively applying these concepts through real-world projects.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -224,7 +286,7 @@ export const education = [
     school: "St Kabir Academy, Harawala Dehradun",
     date: "Apr 2021 - Apr 2022",
     grade: "70%",
-    desc: "I completed my class 12 high school education at St Kabir Academy, Harawala Dehradun, where I studied Science with Computer Science.",
+    desc: "I completed my Class 12 education at St. Kabir Academy, Harawala, Dehradun, with a Science stream, where I developed a strong academic foundation and analytical mindset.",
     degree: "XII, Science with Computer",
   },
   {
@@ -233,18 +295,82 @@ export const education = [
     school: "Florence Nightingale public school,Badaun",
     date: "Apr 2016 - Apr 2020",
     grade: "80.8%",
-    desc: "I completed my class 10 education at Florence Nightingale public school,Badaun, where I studied Science with Computer Application.",
+desc: "I completed my Class 10 education at Florence Nightingale Public School, Badaun, where I built a strong academic foundation and developed a passion for learning.",
     degree: "X, Science ",
   },
 ];
 
 export const projects = [
-   {
-    id: 101,
+  {
+    id: 0,
+    title: "ConstructIQ-AI",
+    date: "Feb 2026 - Mar 2026",
+    description: "AI-Powered Industry Knowledge Platform",
+    image: construct,
+    tags: [
+      "Next Js",
+      "Fast Api",
+      "Python",
+      "Langchain",
+      "Knowledge graph",
+      "Clerk",
+      "Supabase",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "Pydantic",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/ConstructIQ",
+    webapp: "construct-iq-ten.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Actify",
+    date: "Feb 2026 - Mar 2026",
+    description:
+      "Community Hero - Hyperlocal Problem Solver",
+    image: actify,
+    tags: [
+      "Next Js",
+      "Node Js",
+      "Express Js",
+      "Typescript",
+      "Prisma",
+      "Tailwind CSS",
+      "postgreSQL",
+      "Prisma",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/Actify",
+    webapp: "actify-dqv3.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "PrepWise",
+    date: "Jan 2026 - Feb 2026",
+    description:
+      "AI-powered interview preparation platform ",
+    image: Prepwise,
+    tags: [
+      "Next Js",
+      "Node Js",
+      "Express Js",
+      "Typescript",
+      "firebase",
+      "Tailwind CSS",
+      "Vapi ai",
+      "AI SDK",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/PrepWise1",
+    webapp: "prep-wise1-seven.vercel.app",
+  },
+  {
+    id: 3,
     title: "Orbital CLI",
     date: "March 2026 - Apr 2026",
     description:
-      "Developed a terminal-first AI assistant platform combining a Node.js CLI and a Next.js web client with shared authentication, real-time AI responses, URL scraping, and AI-powered project generation capabilities..",
+      "Ai Assistant in your Terminal",
     image: orbital,
     tags: [
       "Next Js",
@@ -259,87 +385,8 @@ export const projects = [
     category: "web app",
     github: "https://github.com/akanksha718/OrbitalCLI",
   },
-   {
-    id: 101,
-    title: "PrepWise",
-    date: "Jan 2026 - Feb 2026",
-    description:
-      "Developed an AI-powered interview preparation platform enabling users to practice real-time mock interviews through voicebased conversations",
-    image: Prepwise,
-    tags: [
-      "Next Js",
-      "Node Js",
-      "Express Js",
-      "Typescript",
-      "firebase",
-      "Tailwind CSS",
-      "Vapi ai",
-      "AI SDK",
-    ],
-    category: "web app",
-    github: "https://github.com/akanksha718/PrepWise1",
-  },
-   {
-    id: 101,
-    title: "Kidney Disease Classification",
-    date: "Jan 2026 - Feb 2026",
-    description:
-      "Developed an end-to-end deep learning application that uses the VGG16 model for transfer learning to classify kidney CT scan images. The dataset used is sourced from Kaggle. The project also incorporates MLflow and DagsHub for experiment tracking, and DVC for data versioning and pipeline management.",
-    image: kidney,
-    tags: [
-      "Deep Learning",
-      "DVC",
-      "VGG16",
-      "MLflow",
-      "DagsHub",
-      "Python",
-      "TensorFlow",
-      "Scikit-learn",
-      
-    ],
-    category: "machine learning",
-    github: "https://github.com/akanksha718/Kidney-Disease-Classification",
-  },
-
-   {
-    id: 101,
-    title: "Coder Buddy",
-    date: "Feb 2026 - Mar 2026",
-    description:
-      "Built an AI-assisted code generation platform capable of creating responsive web pages from a single natural language prompt",
-    image: coder,
-    tags: [
-      "langgraph",
-      "python",
-      "OpenAI API",
-      "Groq"
-      
-    ],
-    category: "machine learning",
-    github: "https://github.com/akanksha718/Coder_buddy",
-  },
-
   {
-    id: 11,
-    title: "BrailleBridge",
-    date: "Oct 2025 - Nov 2025",
-    description:
-      "A Web application “BrailleBridge” that Converts Text to Braille and Braille to Text using Machine Learning and Computer Vision. It aims to bridge the communication gap between visually impaired individuals and the sighted community by providing an intuitive platform for seamless text-braille conversion.",
-    image: bb,
-    tags: [
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "Javascript",
-      "Redux",
-      "Python",
-      "FastAPI",
-    ],
-    category: "web app",
-    github: "https://github.com/akanksha718/BrailleBridge",
-  },
-  {
-    id: 1,
+    id: 4,
     title: "QuickGPT",
     date: "Dec 2025 - Jan 2026",
     description:
@@ -356,108 +403,200 @@ export const projects = [
       "Stripe",
     ],
     category: "web app",
-    github: "https://github.com/akanksha718/Chatgpt-clone",
+    github: "https://github.com/akanksha718/QuickGPT",
+    webapp: "quickgpt-blue.vercel.app/",
   },
-    {
+  {
     id: 5,
+    title: "CodeDude",
+    date: "Jan 2026 - Feb 2026",
+    description: "AI-powered code generation platform capable",
+    image: CodeDude,
+    tags: [
+      "Next Js",
+      "Node Js",
+      "Express Js",
+      "Typescript",
+      "Tailwind CSS",
+      "workers",
+      "ai sdk",
+      "wrangler",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/CodeDude",
+  },
+  {
+    id: 6,
+    title: "Kidney Disease Classification",
+    date: "Jan 2026 - Feb 2026",
+    description:
+      "End-to-End deep learning application that uses the VGG16 model",
+    image: kidney,
+    tags: [
+      "Deep Learning",
+      "DVC",
+      "VGG16",
+      "MLflow",
+      "DagsHub",
+      "Python",
+      "TensorFlow",
+      "Scikit-learn",
+
+    ],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Kidney-Disease-Classification",
+  },
+
+  {
+    id: 7,
+    title: "Coder Buddy",
+    date: "Feb 2026 - Mar 2026",
+    description:
+      "AI-assisted code generation platform ",
+    image: coder,
+    tags: [
+      "langgraph",
+      "python",
+      "OpenAI API",
+      "Groq"
+    ],
+    category: "machine learning",
+    github: "https://github.com/akanksha718/Coder_buddy",
+  },
+
+  {
+    id: 8,
+    title: "BrailleBridge",
+    date: "Oct 2025 - Nov 2025",
+    description:
+      "A Web application that Converts Text to Braille vice-verca",
+    image: bb,
+    tags: [
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "Javascript",
+      "Redux",
+      "Python",
+      "FastAPI",
+    ],
+    category: "web app",
+    github: "https://github.com/akanksha718/BrailleBridge",
+  },
+  {
+    id: 18,
+    title: "PrepSheet",
+    date: "Oct 2025 - Nov 2025",
+    description: "Interactive Question Management Sheet",
+    image: PrepSheet,
+    tags: ["React Js", "Node Js", "Express Js", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/akanksha718/PrepSheet",
+    webapp: "prep-sheet.vercel.app",
+  },
+
+  {
+    id: 9,
     title: "FocusLab",
     date: "Jun 2021",
     description:
-      " A Todo Web App made with React JS, Expressjs. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task",
+      " A Todo Web App made with React JS, Expressjs.",
     image: focus,
     tags: ["React Js", "Local Storage", "Firebase Auth", "Node JS"],
     category: "web app",
     github: "https://github.com/akanksha718/FocusLab",
+    webapp: "focus-lab-97z8.vercel.app",
   },
   {
-    id: 0,
+    id: 10,
     title: "Ecommerse Website",
     date: "Apr 2025 - May 2025",
     description:
       "Developed a full-stack E-Commerce web application ",
     image: ecom,
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux","JWT"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "JWT"],
     category: "web app",
     github: "https://github.com/akanksha718/E-commerse",
   },
   {
-    id: 2,
+    id: 11,
     title: "Diebeties Detection",
     date: "Jan 2025 - Mar 2025",
     description:
-      "Machine Learning model to predict whether a person has diabetes or not based on various health parameters. The model is trained on the Pima Indians Diabetes Database from Kaggle and is built using Python's Scikit-learn library. The web app is built using React Js for the frontend and Flask for the backend.",
-    image:ss,
-    tags: ["Python","Streamlit","Scikit-learn"],
+      "Machine Learning model to predict whether a person have diabetes ",
+    image: ss,
+    tags: ["Python", "Streamlit", "Scikit-learn"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Machine-Learning-Projects",
     webapp: "https://db-predic.streamlit.app/",
   },
   {
-    id: 3,
+    id: 12,
     title: "Lovable + n8n workflow",
     date: "Dec 2025 - Dec 2025",
     description:
       "A Workflow in which loavble created site act as frontend and n8n as backend to collect data from lovable and send response",
     image: n8n,
-    tags: ["N8N", "GOOGLE GIMINI API" ,"Lovable"],
+    tags: ["N8N", "GOOGLE GIMINI API", "Lovable"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Lovable-n8n",
   },
   {
-    id: 10,
+    id: 13,
     title: "MNIST Fashion Classifier",
     date: "Jun 2025 - Jul 2025",
     description:
       "A Machine Learning model that classifies fashion items from the MNIST dataset. The model is built using TensorFlow and Keras and is trained on the Fashion MNIST dataset.",
-    image:mnist,
-    tags: ["Python","TensorFlow","Keras","Streamlit","Deep Learning"],
+    image: mnist,
+    tags: ["Python", "TensorFlow", "Keras", "Streamlit", "Deep Learning"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Deep-Learning-Projects",
   },
   {
-    id: 4,
+    id: 14,
     title: "Movie Recommendation System",
     date: "Jul 2025",
     description:
       "A Movie Recommendation System that suggests movies based on user preferences. The system uses collaborative filtering and content-based filtering techniques to provide personalized recommendations.",
     image: movie,
-    tags: ["Python","Pandas","Scikit-learn","Streamlit"],
+    tags: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Movie-Recommendatoin-System",
+    webapp: "movie-recomandation.streamlit.app/"
   },
   {
-    id: 6,
+    id: 15,
     title: "n8n WorkFlow for Doctor Appintment Booking System",
     date: "Jan 2026",
     description:
       "A simple n8n workflow that allows users to book doctor appointments. The workflow collects user information, checks doctor availability and confirm reply on telegram.",
     image: n8ndoc,
-    tags: ["n8n","Telegram Bot","Google Calendar API"],
+    tags: ["n8n", "Telegram Bot", "Google Calendar API"],
     category: "machine learning",
     github: "https://github.com/akanksha718/n8n-project",
-  
+
   },
   {
-    id: 7,
+    id: 16,
     title: "Whatsapp Chat Analyzer",
     date: "Dec 2025 - Jan 2026",
     description:
       "A web application that analyzes WhatsApp chat data to provide insights and statistics about the conversations. Users can upload their chat export files, and the app generates visualizations and summaries of the chat data.",
     image: whatapp_analyzer,
-    tags: ['Python','Jupyter Notebook','Pandas','Matplotlib','Seaborn','Numpy'],
+    tags: ['Python', 'Jupyter Notebook', 'Pandas', 'Matplotlib', 'Seaborn', 'Numpy'],
     category: "machine learning",
     github: "https://github.com/akanksha718/Whatapp-chat-analyzer",
   },
   {
-    id: 8,
+    id: 17,
     title: "Cold Email Generator using LLM",
     date: "Jan 2026",
     description:
       "A web application that generates cold email templates using Large Language Models (LLMs). Users can input their target website in which they want to send email",
     image: LLMpR,
-    tags: ["Python", "LLM", "Chromadb", "gen-ai" ],
+    tags: ["Python", "LLM", "Chromadb", "gen-ai"],
     category: "machine learning",
     github: "https://github.com/akanksha718/Cold-email",
-    
   },
+
 ];

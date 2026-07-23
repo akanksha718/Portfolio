@@ -106,11 +106,11 @@ const ProjectCard = ({ project }) => {
   return (
     <Card>
       <Image src={project.image} />
-       <Tags>
-                {project.tags?.map((tag, index) => (
-                <Tag>{tag}</Tag>
-                ))}
-        </Tags>
+      <Tags>
+        {project.tags?.map((tag, index) => (
+          <Tag>{tag}</Tag>
+        ))}
+      </Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
@@ -121,9 +121,16 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <Button href={project.github} target="_blank">
+      <div className="flex items-center justify-between ">
+        <Button href={project.github} target="_blank">
         View Code
       </Button>
+      {project.webapp && (
+        <Button href={project.webapp} target="_blank">
+          View Live
+        </Button>
+      )}
+      </div>
     </Card>
   );
 };

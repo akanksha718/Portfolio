@@ -143,6 +143,7 @@ const Skills = () => {
                   ))}
                 </SkillList>
               </Skill>
+              
             </Tilt>
           ))}
         </SkillsContainer>

@@ -9,6 +9,7 @@ import StartCanvas from "./componenets/canvas/Stars";
 import Footer from './componenets/section/Footer'
 import Projects from './componenets/section/Projects'
 import Education from './componenets/section/Education'
+// import Experience from './componenets/section/Experience'
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -41,11 +42,12 @@ function App() {
          <BrowserRouter>
         <Navbar />
           <Body>
-           <StartCanvas />
+           {/* <StartCanvas /> */}
             <div>
              <HeroSection />
                <Wrapper>
                 <Skiils />
+                {/* <Experience/> */}
               </Wrapper>
              <Projects />
               <Wrapper>

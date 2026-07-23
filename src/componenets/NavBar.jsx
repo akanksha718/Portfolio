@@ -32,6 +32,9 @@ const NavLogo = styled(Link)`
   font-size: 20px;
   text-decoration: none;
   color: inherit;
+  display: flex;
+  align-items: center;
+  color: ${({ theme }) => theme.primary};
 `;
 
 const NavItems = styled.ul`
@@ -123,8 +126,8 @@ const MobileMenu = styled.ul`
     display: none;
   }
 `;
-
-
+import { MdArrowBackIos } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const theme = useTheme();
@@ -133,7 +136,11 @@ const Navbar = () => {
             <NavbarContainer>
 
                 {/* Logo */}
-                <NavLogo to="/">Portfolio</NavLogo>
+                <NavLogo to="/">
+                <MdArrowBackIos />
+                AKANKSHA
+                <MdArrowForwardIos />
+                </NavLogo>
 
                 {/* Mobile Menu Icon */}
                 <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -146,7 +153,7 @@ const Navbar = () => {
                     <NavLink href="#Skills">Skills</NavLink>
                     {/* <NavLink href="#Experience">Experience</NavLink> */}
                     <NavLink href="#Projects">Projects</NavLink>
-                     <a className='hover:underline' target='_blank' href="https://codolio.com/profile/akanksha_negi">Programing Profile</a>
+                     <a className='hover:underline' target='_blank' href="https://codolio.com/profile/akanksha_negi">Coding Profile</a>
                     <NavLink href="#Education">Education</NavLink>
                 </NavItems>
 
