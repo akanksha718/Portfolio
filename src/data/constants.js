@@ -22,7 +22,7 @@ import whatapp_analyzer from "../assets/whatapp_Analyzer.png";
 import LLMpR from "../assets/LLMpR.png";
 import orbital from "../assets/orbital.png";
 import Prepwise from "../assets/Prepwise.png";
-import kidney from "../assets/kidney.png";
+import potato from "../assets/potato.png";
 import coder from "../assets/coder.jpg";
 import sklearn from "../assets/scikit-learn.png";
 import construct from "../assets/Constrct.png";
@@ -427,24 +427,23 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Kidney Disease Classification",
+    title: "Potato Disease Classification",
     date: "Jan 2026 - Feb 2026",
     description:
-      "End-to-End deep learning application that uses the VGG16 model",
-    image: kidney,
+      "End-to-End deep learning application that uses the CNN model",
+    image: potato,
     tags: [
       "Deep Learning",
-      "DVC",
-      "VGG16",
-      "MLflow",
-      "DagsHub",
+      "CNN",
+      "React",
+      "tf-serving",
       "Python",
       "TensorFlow",
       "Scikit-learn",
 
     ],
     category: "machine learning",
-    github: "https://github.com/akanksha718/Kidney-Disease-Classification",
+    github: "https://github.com/akanksha718/Potato-Disease-Classificaton",
   },
 
   {
